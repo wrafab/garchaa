@@ -1,0 +1,173 @@
+
+ <html> 
+ <title>Arjun's fab Page</title> 
+ <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style> 
+ header { 
+      background-color:black;
+    background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.05)),
+                      linear-gradient(-72deg, hsla(0,0%,100%,.05) 50%, transparent 50%);
+    backface-visibility: hidden;
+    box-shadow: inset 0 0 .25em hsla(0,0%,0%,.1),
+                inset 0 0 1.5em hsla(0,0%,0%,.25);
+    color:GhostWhite; 
+    text-align:center; 
+     padding:5px;
+	 text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	 
+ } 
+  
+
+ section { 
+     width:320px; 
+     float:center; 
+     padding:12px;	 	  
+ } 
+ footer { 
+     background-color:green; 
+     color:white; 
+     text-align:center; 
+     padding:13px;	 
+ } 
+ body {
+ background-color: whitesmoke;
+ background-repeat:no-repeat; 
+ background-position:center; 
+ width="1300"; height="1200"; 
+} 
+  
+  
+  
+ h1 {font-family:herman; font-size:300%;text-align:center;} 
+ h2 {font-family:herman; font-size:150%;text-align:center;} 
+ h3 {font-family:helterskelter; font-size:125%;text-align:center;} 
+ p {font-family:verdana;font-size:}100%;} 
+ a {font-family:verdana;font-size:}300%;} 
+     
+
+body {
+    background-color: #ddd;
+    font-size: 100%;
+    padding: 3em;
+}
+.mainNav {
+    float: left;
+    
+}
+.mainNav ul {
+    
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mainNav a:hover {
+    background-color: DimGray;
+    color: white;
+}
+.mainNav a {
+    border-radius: 2px;
+    background-color: #6ba5d6;
+    background-image: linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.05)),
+                      linear-gradient(-72deg, hsla(0,0%,100%,.05) 50%, transparent 50%);
+    backface-visibility: hidden;
+    box-shadow: inset 0 0 .25em hsla(0,0%,0%,.1),
+                inset 0 0 1.5em hsla(0,0%,0%,.25);
+    color: black;
+    display: block;
+    font: bold 1em/3 sans-serif;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+    transition: .5s;
+	
+}
+
+.mainNav li a.active {
+    background-color: DimGray;
+    color: white;
+}
+
+img {
+	border: 1px solid #ddd;
+    border-radius: 8px;
+	max-width: 100%;
+    height: auto;
+	display:block;
+    padding: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 140, 186, 5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ </style> 
+</head> 
+ 
+ 
+ <body> 
+ <header> 
+ <h1>Welcome to my page!</h1>
+ </header> 
+ 
+<nav class="mainNav">
+ <ul>
+  <li><a class="active" href="me.html">About Me - Arjun Garcha</a></li>
+ <li><a href="week1.html">Week One</a></li>
+ <li><a href="week2.html">Week Two</a></li> 
+ <li><a href="week3.html">Week Three</a></li> 
+ <li><a href="week4.html">Week Four</a></li> 
+ <li><a href="week5/week5.html"> Week Five</a></li> 
+ <li><a href="week6/week6.html"> Week Six</a></li> 
+ <li><a href="week 7/week7.html"> Week Seven</a></li> 
+ <li><a href="week 8/week8.html"> Week Eight</a></li> 
+ <li><a href="week 9/week9.html"> Week Nine</a></li> 
+ <li><a href="week10/week10.html"> Week Ten</a></li> 
+ <li><a href="week 11/week11.html"> Week Eleven</a></li>  
+ <li><a href="Final/finale.html">Final Project</a></li> 
+ </ul>
+</nav>
+
+ <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<h1>Arjun Garcha</h1>
+<h2>My experience with Digital Fabrication and Engineering</h1>
+<p>
+<hr style="width:50%">
+</p>
+
+<p>
+My website will be used to share what we do in Digital Fabrication and Engineering with Mr.Gerber.This class will go on for half the school year and it will be a great time! It will be full of challenges and activities that will challenge and test our abilities. I'm really looking forward to it and I hope you are also looking forward to the class. Enjoy!
+</p>
+
+<div id="container">
+	<img src="footballpic.jpg" style="width:250px;height:600px;">
+</div>
+
+<p>
+<hr style="width:80%">
+</p>
+
+<a href="index.html">Back to index</a>
+</div>
+</body>
+</html>
+<center><iframe sr="https://embed-ssl.ted.com/talks/neil_gershenfeld_on_fab_labs.html" width="854" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center>
+<center><iframe sr="https://embed-ssl.ted.com/talks/dale_dougherty_we_are_makers.html"width="854" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center>
+
