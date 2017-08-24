@@ -130,20 +130,7 @@ a:hover {
 <nav class="mainNav">
  <ul>
   <li><a class="active" href="me.html">About Me - Arjun Garcha</a></li>
- <li><a href="week1.html">Week One</a></li>
- <li><a href="week2.html">Week Two</a></li> 
- <li><a href="week3.html">Week Three</a></li> 
- <li><a href="week4.html">Week Four</a></li> 
- <li><a href="week5/week5.html"> Week Five</a></li> 
- <li><a href="week6/week6.html"> Week Six</a></li> 
- <li><a href="week 7/week7.html"> Week Seven</a></li> 
- <li><a href="week 8/week8.html"> Week Eight</a></li> 
- <li><a href="week 9/week9.html"> Week Nine</a></li> 
- <li><a href="week10/week10.html"> Week Ten</a></li> 
- <li><a href="week 11/week11.html"> Week Eleven</a></li>  
- <li><a href="Final/finale.html">Final Project</a></li> 
- </ul>
-</nav>
+ 
 
  <div style="margin-left:25%;padding:1px 16px;height:1000px;">
 <h1>Arjun Garcha</h1>
