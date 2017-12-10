@@ -1,93 +1,128 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>Mirror Project</title>
-    <meta name="author" content="Arjun Garcha">
-    <meta name="description" content="Arjun Garcha's WRA Digital Fabrication Portfolio">
-    <link rel="stylesheet" href="../css/reset.css" type="text/css">
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
-
+	<meta charset="UTF-8">
+	<title>Arjun's Digital Engineering and Fabrication</title>
+	<!-- This is a comment -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/ico" href="fav icon.ico"/>
+	
+	<style>
+	header {
+    background-color:white;
+    color:black;
+    text-align:center;
+    font-family:"open-sans-condensed", sans-serif
+    padding:0px;	 
+}
+body {background-color: White;
+}
+	nav {
+    float: right;
+    max-width: 470px;
+    margin-right: 20px;
+    margin-left: 4px;
+    margin-top: 20px;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+font-family:verdana;
+font-size:20px;
+color:black;
+line-height: 170%;
+}
+h1 {font-size=60px;font-family:verdana;color:black;text-align:center;}
+h2 {font-size=35px;font-family:verdana;color:black;text-align:center;}
+h3 {font-size=35px;font-family:verdana;color:black;text-align:center;}
+p {color:black;font-family:Geneva;font-size:20px;text-align:center;}
+a {font-family:verdana;font-size:100%;text-align:center;}
+		
+#paragraph {text-align:center;margin-left:200px;margin-right:200px;}
+		
+</style>
 </head>
 
 <body>
-    <div class="title"><a href="#">Peter Campanelli</a></div>
+	<br>
+	<header style="background-color:black"> 
+		<a href="index.html"><img src="wra.jpg" alt="wra.jpg" style="border:0px;width:50%" align="center"></a>
+</header>	
 
-    <div class="post">
-        <h1>Digital Mirror Project</h1>
-        <h3>Intro and Materials List</h3>
-        <p>For my final project we had to combine four of the processes we learned during the course. Online, I had seen many people build their own digital mirror and I wanted to give it a shot. A digital mirror is a one-way mirror with a monitor behind which gives the illusion that the mirror is lit up behind, when it is just a screen behind. The screen usually shows text, like the time and weather, but can also load websites, etc. I had most of the supplies I needed around the house: an old monitor, wood, Windex, a spray bottle, a Raspberry Pi that was just sitting in a drawer, and cables. Mr. Gerber gave me a sheet of clear acrylic I would use for the mirror itself. I also bought a sheet of one-way mirror film. It is advertised as privacy film for home windows, but did the job perfectly for my mirror. Here is the final list of materials:</p>
-        <ul>
-            <li>Wood for the Frame</li>
-            <li>Sheet of Clear Acrylic</li>
-            <li>Raspberry Pi</li>
-            <li>TV or Monitor you can take apart</li>
-            <li>Windex</li>
-            <li>Microfiber Cloth</li>
-            <li>X-Acto or similar knife</li>
-            <li>Squeegee</li>
-            <li>Drill and bits</li>
-            <li>8 Screws</li>
-        </ul>
-        <img src="../materials.jpg">
-        <br>
-    </div>
-    <div class="post">
-        <h1>Step 1</h1>
-        <h3>Design the Mirror</h3>
-        <p>After I had all my materials, it was time to design. I made some drawings on how I wanted the mirror to look, but I ended up just measuring my piece of acrylic so I didn't have to cut it. Cutting acrylic is a pain.
-            <br><img src="../wood.jpg">
-            <br>I measured and cut the wood, and screwd it together so that the acrilyic fit in in just perfect.
-        </p>
-    </div>
-    <div class="post">
-        <h1>Step 2</h1>
-        <h3>Set Up the Screen</h3>
-        <p>Next, I took apart the old screen which required some prying and unscrewing.
-            <br><img src="../screen.jpg">
-            <br>Then I used github to program a quick time and date script that could run on a website. You can see the website, live, <a href="http://petercampanelli.com/mirror">right here</a>.
-        </p>
-    </div>
-    <div class="post">
-        <h1>Step 3</h1>
-        <h3>Screw</h3>
-        <p>This step was pretty easy. I drilled some holes and turned some screws.
-            <br><img src="../screw.jpg">
-            <br>I also laser the spurs logo.
-        </p>
-    </div>
-    <div class="post">
-        <h1>Step 4</h1>
-        <h3>Apply The Film</h3>
-        <p>This took two tries before it worked. The first try, I applied film dry and it took an hour to smooth out but it was scratched and had a big wrinkle right down the center. 
-            <br> <img src="../mirror1.jpg"> <img src="../mirror2.jpg"> <img src="../mirror3.jpg">
-        </p>
-    </div>
-    <div class="post">
-        <h1>Step 4</h1>
-        <h3>Glue and Insert Electronics</h3>
-        <p>Pretty self explanatory. I used hot glue to attach the screen to the acrylic. To save yourself time, I highly recommend making 100% sure that the screen is straight.
-            <br> <img src="../glue.jpg"><img src="../electronics.jpg">
-        </p>
-    </div>
-    <div class="post">
-        <h1>Step 5</h1>
-        <h3>Turn it On!</h3>
-        <p>I set it up, installed Chromium (the open-source version of Chrome) and went to my website. It looks amazing!
-            <br> <img src="../final.jpg"></p>
-    </div>
-    <div class="post">
-        <h1>Recap</h1>
-        <p>Just as a recap the 4 processes that I used were:</p>
-        <ol>
-            <li>Web Development</li>
-            <li>2D Graphic Design</li>
-            <li>Laser Cutter</li>
-            <li>Microcontrollers (Raspberry Pi)</li>
-        </ol>
-    </div>
-    <p style="color: white; font-size: 15px; padding-bottom: 15px;">Arjun Garcha 2017 under the MIT License</p>
-</body>
+		<div id="navigation" style="
+		margin-top: 0px;
+		padding-top: 1px;
+		padding-left: 20px;
+		padding-right: 10px;
+		padding-bottom: 50px;
+		background-color:black;
+		">
+			<li><a href="aboutme.html">Aboutme</a></li>
+			<li><a href="marshmellow.html">GIT and Project Management</a></li>
+			<li><a href="CAD.html">Computer-Aided Design</a></li>
+			<li><a href="garmentprinting.html">Garment and UV Printer</a></li>
+			<li><a href="lasercutting.html">Computer Controlled Cutting</a></li> 
+			<li><a href="3Dprinting.html">3D Scanning and Printing</a></li> 
+      			<li><a href="vinyl.html">Vinyl Cutting</a></li> 
+      			<li><a href="cncmilling.html">Vacuum Forming and Lamination- Skateboards</a></li> 
+      			<li><a href="vacuum.html">Soldering | Electronics </a></li> 
+      			<li><a href="electronics.html">Rasberry Pi</a></li>  
+      			<li><a href="final.html">Final Project</a></li> 
 
-</html>
+		</ul>
+	</div>
+	<br><br><br><br>
+	<div id="paragraph">
+	<h1>Final Project</h1>
+		<br>
+		<br>
+		For my final project, I created a Magic Mirror using web-devolpment, computer-aided design, laser cutting, 2d graphic devolpment and rasberry pi. 
+		<br><br>First, I designed and created the wood to place the clear acrilyic into .
+		
+        <br><br>	<h2>Computer-aided design</h2>
+		
+        <br><br>I found a picture online of the spurs logo,
+
+	     <br><br>   <h2>Laser Cutting</h2>
+		<br><br>Now, onto the actually engraving of the logo.
+		<br><br>First, I cut 1/8" plywood to make a square to put into the machine.
+		<br><br>Then using the laser cutter I rasterd and vectored to get a perfct square with the logo inside.
+		
+        <br><br>	<h2>Web-Devlopment</h2>
+		
+		<br><br>I used github to create a simple website that gave the date and time .
+		<br><br>I was able to create it fairly quickly this is the link to the website.
+		<a href="final final v1.f3d">3D print file</a><br>
+		
+        <br><br>	<h2>2d graphic design</h2>
+		
+		<br><br>the way I used 2d graphic design in my final project was with the work I did to get the wood a ceratin shape.
+		
+        <br><br>	<h2>Rasberry Pi</h2>
+		
+        <br><br>I used Rasberry pi in my final project to power the monitor and allow it to reach my website to project through the screen.
+		 <br><br>	<h2>Images</h2>
+        <br><br>These are the pictures of my mirror before adding the mirror film.
+		<br><br><img src="acryl.JPG" alt="final" style="width:40%;">
+		<img src="acryl2.JPG" alt="final" style="width:40%;">
+		<br><br><br>
+		<h2>This is a picture of the fully functional mirror</h2>
+		<br><br><img src="mirror.jpeg" alt="mirror.jpeg" style="width:40%;">
+		
+   
+		<br>
+		<br>
+		<br>
+		
+		<section>
+			<h1>Download and View My Project Here</h1>
+			<a href="final final v1.f3d">3D print file</a><br>
+			
+
+		</section>
+		
+		<br>
+		<br>
+		</div>
+
+
